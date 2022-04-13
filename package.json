@@ -1,0 +1,22 @@
+{
+    "name": "hacky-file-downloader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./index.js",
+        "start:dev": "nodemon ./index.js"
+    },
+    "author": "Reza Rahmati",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "form-data": "^4.0.0",
+        "globby": "^13.1.1",
+        "node-fetch": "^3.2.3"
+    }
+}
